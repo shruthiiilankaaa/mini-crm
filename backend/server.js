@@ -10,7 +10,11 @@ const { startReminderCron } = require('./src/services/reminderService');
 
 const app = express();
 app.use(cors({
-  origin: ['http://localhost:3001', 'http://localhost:3000'],
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://mini-crm-frontend.vercel.app', // replace with your actual vercel URL
+  ],
   credentials: true,
 }));
 app.use(express.json());
