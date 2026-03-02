@@ -34,7 +34,7 @@ const sendActionEmail = async (to, userName, subject, actionTitle, actionDetail,
             <p style="color:#7a7060;font-size:13px;margin:0 0 24px;">
               This is an automated notification from your MiniCRM account.
             </p>
-            <a href="http://localhost:3001/dashboard"
+            <a href="https://mini-crm-phi-gray.vercel.app"
               style="display:inline-block;background:#1a4a3a;color:white;padding:12px 28px;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;">
               Open MiniCRM →
             </a>

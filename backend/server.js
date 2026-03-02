@@ -13,7 +13,7 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'http://localhost:3001',
-    'https://mini-crm-frontend.vercel.app', // replace with your actual vercel URL
+    'https://mini-crm-phi-gray.vercel.app',
   ],
   credentials: true,
 }));
